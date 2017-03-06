@@ -13,31 +13,40 @@
 * Projects
 ** Create note
 *** models
-**** user
-     email :: string
-     password :: string
-     notes :: notes || fake relation
-**** note
-    title :: string
-    date :: date
-    content ::  string
-    priority :: integer     
-    reminder :: boolean
-    user_id :: user
+**** user [3/3]
+     + [X] email :: string
+     + [X] password :: string
+     + [X] notes :: notes || fake relation
+**** note [6/6]
+    + [X] title :: string
+    + [X] date :: date
+    + [X] description ::  string
+    + [X] priority :: integer     
+    + [X] reminder :: boolean
+    + [X] user :: user
+
+*** Services
+**** note [1/1]
+     + [X] setup fake notes and users
 
 *** Form 
-**** note form [0/4]
-   + [ ] title input - string
-   + [ ] date input - date
-   + [ ] content textarea - content
-   + [ ] priority input - integer
+**** add form [4/4]
+   + [X] title input - string
+   + [X] date input - datetime
+   + [X] content textarea - content
+   + [X] priority input - integer
 
-** List notes [0/0]
-   + [ ] Create a for loop that display all notes
-   + [ ] Create a form with query search
-     + [ ] Filter by date
-     + [ ] Filter by priority
+**** search form [2/2]
+   + [X] date
+   + [X] priority
+     
+** List notes [2/2]
+   + [X] Create a for loop that display all notes
+   + [X]
    
-** delete note
-** update note
+
+*** Design  [1/2]
+    + [X] show hide add form
+    + [ ] show hide search form
+
 

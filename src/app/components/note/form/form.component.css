@@ -1,0 +1,17 @@
+legend {
+    border: none;
+}
+
+.no-margin {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.my-fieldset {
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 20px;
+}
+
+.my-fieldset i {
+    cursor: pointer;
+}
