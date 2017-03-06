@@ -1,0 +1,43 @@
+* Technologies used
+** bootstrap
+** angular2
+
+* Application requirements
+  Create a form with title, content and date
+  List the notes
+  add, delet, update
+  create user
+  user must be linkked to notes
+  note must have a reminder boolean 
+
+* Projects
+** Create note
+*** models
+**** user
+     email :: string
+     password :: string
+     notes :: notes || fake relation
+**** note
+    title :: string
+    date :: date
+    content ::  string
+    priority :: integer     
+    reminder :: boolean
+    user_id :: user
+
+*** Form 
+**** note form [0/4]
+   + [ ] title input - string
+   + [ ] date input - date
+   + [ ] content textarea - content
+   + [ ] priority input - integer
+
+** List notes [0/0]
+   + [ ] Create a for loop that display all notes
+   + [ ] Create a form with query search
+     + [ ] Filter by date
+     + [ ] Filter by priority
+   
+** delete note
+** update note
+
